@@ -1,4 +1,7 @@
 #include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <strlen.h>
 void push(int [], int*, int);
 int pop(int [], int*);
 int main()
@@ -50,4 +53,4 @@ int elem;
 elem = Stack[*t];
 *t = *t -1;
 return elem;
-}s
+}
