@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <math.h>
-#include <strlen.h>
+#include <ctype.h>
 void push(int [], int*, int);
 int pop(int [], int*);
 int main()
